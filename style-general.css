@@ -1,0 +1,20 @@
+body{
+    margin: 0;
+    background: linear-gradient(to top left, rgb(144,199,194), rgb(40,134,88), rgb(3, 83, 97), rgb(3, 83, 97));
+    font-family: "Yatra One";
+}
+.bodyContent{
+    margin: auto;
+    padding: 32px;
+    max-width: 1440px;
+}
+.d-none{
+    display: none;
+}
+.break-word{
+    word-wrap: break-word;
+}
+h1{
+    text-align: center;
+    font-size: 48px;
+}

@@ -1,0 +1,72 @@
+@media (max-width: 678px){
+    h1{
+        font-size: 32px;
+    }
+    .singleBook{
+        width: 400px;
+    }
+    .commentary_section{
+        width: 350px;
+    }
+    .writtenComments{
+        width: 350px;
+    }
+}
+@media (max-width: 500px){
+    .singleBook{
+        width: 300px;
+    }
+    .commentary_section{
+        width: 250px;
+    }
+    .writtenComments{
+        width: 250px;
+    }
+    .commentaryBar{
+        flex-direction: column;
+        align-items: center;
+    }
+    .inptField {
+        width: 280px;
+        margin: 4px;
+        padding: 0, 8px, 0, 8px;
+    }
+    .btn{
+        width: 287px;
+        margin: 4px;
+        padding: 0, 8px, 0, 8px;
+    }
+}
+@media (max-width: 400px){
+    h2{
+        font-size: 18px;
+    }.bookTable {
+        font-size: 12px;
+    }
+    .singleBook{
+        width: 200px;
+    }
+    .commentary_section{
+        width: 150px;
+    }
+    .writtenComments{
+        width: 150px;
+    }
+    .commentaryBar{
+        flex-direction: column;
+        align-items: center;
+    }
+    .inptField {
+        width: 180px;
+        margin: 4px;
+        padding: 0, 8px, 0, 8px;
+    }
+    .btn{
+        width: 187px;
+        margin: 4px;
+        padding: 0, 8px, 0, 8px;
+    }
+    .commentaryContent{
+        font-size: 12px;
+    }
+}

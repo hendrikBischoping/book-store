@@ -1,0 +1,102 @@
+
+#books_content{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.singleBook{
+    height: fit-content;
+    width: 500px;
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 64px 32px 64px;
+    border: outset 16px rgba(56, 212, 240, 0.137);
+    border-radius: 16px;
+    background-image: linear-gradient(to bottom right, rgb(144,199,194), rgb(40,134,88), rgb(3, 83, 97), rgb(3, 83, 97));
+}
+.book_img{
+    max-height: 120px;
+}
+h2 {
+    text-align: center;
+}
+.bookTable {
+    font-size: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    margin: 8px;
+    padding: 8px;
+}
+.like-btn {
+    background-color: yellow;
+    border: none;
+    font-family: "Yatra One";
+    border-radius: 8px;
+}
+.like-btn:hover{
+    cursor: pointer;
+    
+    background-color: rgb(255, 255, 0, 0.6);
+}
+.heartButton{
+    height: 24px;
+    cursor: pointer;
+}
+.commentaryBar{
+    display: flex;
+    justify-content: center;
+    padding-top: 4px;
+    padding-bottom: 8px;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+.inptField{
+    background-color: rgb(95, 235, 167);
+    border: solid, 1px, black, ;
+    border-radius: 8px;
+    width: 150px;
+}
+.inptField::placeholder{
+    color: rgb(0, 0, 0);
+    opacity: 0.5;
+}
+.btn{
+    background-color: rgb(95, 235, 167);
+    border-radius: 8px;
+}
+.btn:hover{
+    background-color: rgb(62, 151, 108);
+    cursor: pointer;
+}
+.commentaryContent{
+    height: 250px;
+    overflow:scroll;
+    overflow-x:hidden;
+    margin: 16px 32px 16px 32px;
+}
+.writtenComments{
+    width: 450px;
+    background-color: rgb(0, 0, 0, 0.2);
+}
+.commentaryContent::-webkit-scrollbar{
+    width: 12px;
+    background-color:  rgb(144,199,194);;
+    border-radius: 8px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.commentaryContent::-webkit-scrollbar-button{
+    background-color: rgb(62, 151, 108);
+    border-radius: 4px;
+    height: 12px;
+}
+.commentaryContent::-webkit-scrollbar-thumb{
+    background-color: rgb(62, 151, 108);
+    border-radius: 4px;
+}
+.commentaryContent::-webkit-resizer{
+    background-color: black;
+}
